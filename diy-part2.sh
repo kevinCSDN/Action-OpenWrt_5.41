@@ -24,12 +24,13 @@ sed -i 's/PATCHVER:=6.1/PATCHVER:=5.15/g' target/linux/x86/Makefile   # x86æœºåž
 
 rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/themes/luci-theme-netgear
-rm -rf feeds/luci/applications/luci-app-upnp
+#rm -rf feeds/luci/applications/luci-app-upnp
 rm -rf feeds/luci/applications/luci-app-wrtbwmon
 git clone --depth=1 https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 
-git clone --depth=1 https://github.com/kevinCSDN/sirpdboy-package/luci-theme-btmob package/luci-theme-btmob
-git clone --depth=1 https://github.com/kevinCSDN/sirpdboy-package/luci-theme-upnp package/luci-theme-upnp
+git clone --depth=1 https://github.com/kevinCSDN/package/luci-theme-btmob package/luci-theme-btmob
+
+#git clone --depth=1 https://github.com/kevinCSDN/sirpdboy-package/luci-theme-upnp package/luci-theme-upnp
 svn export https://github.com/haiibo/packages/trunk/luci-theme-atmaterial package/luci-theme-atmaterial
 svn export https://github.com/haiibo/packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
 svn export https://github.com/haiibo/packages/trunk/luci-theme-netgear package/luci-theme-netgear
