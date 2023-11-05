@@ -26,7 +26,7 @@ rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/themes/luci-theme-netgear
 rm -rf feeds/luci/applications/luci-app-upnp
 git clone --depth=1 https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
-git clone --depth=1 https://github.com/sirpdboy/sirpdboy-package/luci-theme-btmod package/luci-theme-btmod
+git clone --depth=1 https://github.com/sirpdboy/luci-theme-btmobd package/luci-theme-btmod
 git clone --depth=1 https://github.com/sirpdboy/sirpdboy-package/upnpd/luci-app-upnp package/luci-app-upnp
 svn export https://github.com/haiibo/packages/trunk/luci-theme-atmaterial package/luci-theme-atmaterial
 svn export https://github.com/haiibo/packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
